@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isndarrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-ndarray-like@deno/mod.js';
+import isndarrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-ndarray-like@v0.2.1-deno/mod.js';
 ```
 
 #### isndarrayLike( value )
@@ -83,7 +83,7 @@ A value is [ndarray][@stdlib/ndarray/ctor]-like if a value is an `object` with t
 
 ```javascript
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@deno/mod.js';
-import isndarrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-ndarray-like@deno/mod.js';
+import isndarrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-ndarray-like@v0.2.1-deno/mod.js';
 
 var arr = ndarray( 'generic', [ 0, 0, 0, 0 ], [ 2, 2 ], [ 2, 1 ], 0, 'row-major' );
 var bool = isndarrayLike( arr );
